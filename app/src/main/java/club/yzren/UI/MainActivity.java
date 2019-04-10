@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent3);
                 break;
             case R.id.list_contex_menu:
-                Intent intent4=new Intent(this, Context_Menu.class);
+                Intent intent4=new Intent(this, ActionModeMenu.class);
                 startActivity(intent4);
                 break;
         }
